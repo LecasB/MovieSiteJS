@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Tecnologias de Mercado - Exercicio Movies</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    
+  </head>
+  <body>
+   
+    <header>
+      <div class="inicio">
+      <h1>Movies</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="https://www.imdb.com/" target="_blank">IMDB</a>
+      </nav>
+    
+    </div>
+      <div class="filters">
+        <h3 id="ver" style="display: none;">No Movies Available</h3>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Search</h2>
+        
+          <div class="heading">
+          <label for="genres">Select type</label>
+          <select id="genres" onchange="filtrar()">
+          <option value="1">All Movies</option>
+        </select>
+      
+        
+      
+      </section>
+    </div>
+    <section>
+      <h2>Results</h2>
+      <div id="main" class="movies-container">
+        <div id="newMovies"></div>
+      </div>
+    </section>
+  </main>
+
+
+    <footer>
+      Movies List Web
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
